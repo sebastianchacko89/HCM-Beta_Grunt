@@ -1,0 +1,13 @@
+<html>
+	
+	<body ng-app ="hcmBetaGruntApp" ng-controller="LoginCtrl">
+		Username: <input ng-model ="name" type="text" /> 
+		</br>
+		Password: <input ng-model ="pwd" type="password" /> 
+		</br>
+		<button ng-click="login()">Login</button>
+		<div ng-show="errorFlag" style="color:red">
+		**Invalid UserId/ Password
+		</div>
+    </body>
+</html>
