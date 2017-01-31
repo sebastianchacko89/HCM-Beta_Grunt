@@ -12,7 +12,7 @@ angular.module('hcmBetaGruntApp')
 
     var cognitoAuth = function cognitoAuth() {
 		var creds = new AWS.CognitoIdentityCredentials({
-		IdentityPoolId: 'us-east-1:4868d830-7f18-4d2c-b0a9-88aac9b231cc'
+		
 		})
 
 		AWS.config.update({
